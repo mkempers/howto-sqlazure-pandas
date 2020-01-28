@@ -8,7 +8,7 @@ from sqlalchemy import create_engine
 AZUREUID = 'myuserid'                                    # Azure SQL database userid
 AZUREPWD = '************'                                # Azure SQL database password
 AZURESRV = 'shareddatabaseserver.database.windows.net'   # Azure SQL database server name (fully qualified)
-DATABASE = 'Pandas'                                      # Azure SQL database name (if it does not exit, pandas will create it)
+AZUREDB = 'Pandas'                                      # Azure SQL database name (if it does not exit, pandas will create it)
 TABLE = 'DataTable'                                      # Azure SQL database table name
 DRIVER = 'ODBC Driver 13 for SQL Server'                 # ODBC Driver
 
